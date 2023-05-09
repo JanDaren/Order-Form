@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deck | Order</title>
+		<link href="order.css" rel="stylesheet" type="text/css">
+		<meta charset="UTF-8"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<div class="nav">
+		<a href="../index.html" style="float: left;"><img src="logo_transparent.png"></a>
+		<a href="">ORDER</a>
+		<a href="../index.html">HOME</a>
+	</div>
+	<div id="part2"></div>
+		<div class="progress">
+			<div class="p_name" style="margin-right: -8%;">
+				<h4>Customer<br>Information</h4>
+				<a href="order.html" style="text-decoration: none; color: white;"><h3 style="border: 2px solid #87a14c;">1</h3></a>	
+			</div>
+			<div class="p_name" style="margin-right: 17.5%;">
+				<hr style="width: 200%; border: 1.5px dashed #adadad;">
+			</div>
+			<div class="p_name">
+				<h4 style="color: #adadad">Order Form</h4>
+				<h3 style="color: #adadad">2</h3>	
+			</div>
+		</div>
+		<div class="box">
+			<div id="cust_info">
+				<table>
+					<caption>CUSTOMER<br>INFORMATION</caption>
+					<form method="post" action="#order">
+					<tbody>
+						<tr>
+							<td id="lefttd"><label for="name">Customer Name</label></td>
+							<td colspan="2"><input type="text" id="name" name="name" size="35" placeholder="Fullname" max-length="50" autocomplete="off" autofocus required></td>
+						</tr>
+						<tr>
+							<td id="lefttd"><label for="email">Customer Email</label></td>
+							<td colspan="2"><input type="text" id="email" name="email" size="35" placeholder="Email Address" max-length="50" autocomplete="off" required></td>
+						</tr>
+						<tr>
+							<td id="lefttd"><label for="number">Contact Number</label></td>
+							<td colspan="2"><input type="tel" id="number" name="number" pattern="[0]{1}[9]{1}[0-9]{9}" placeholder="Phone Number (09XXXXXXXXX)" autocomplete="off" required></td>
+						</tr>
+						<tr>
+							<td colspan="3"><label for="address">Customer Address</label><br>
+							<input type="text"  id="address" name="address" placeholder="Home No. / Street / Barangay / Municipality / Province or City" autocomplete="off" required>
+							</td>
+						</tr>
+						<tr>
+							<td id="lefttd"><label for="postal">Postal Code</label><br>
+							<input type="number" min="0" placeholder="XXXX" id="postal" pattern="[0-9]{4}" required></td>
+							<td colspan="2">
+							<label for="region-select">Choose a region</label><br>
+							<select id="region-select" name="region" required>
+							  <option value="">----Please select a region----</option>
+							  <option value="NCR">National Capital Region (NCR)</option>
+							  <option value="CAR">Cordillera Administrative Region (CAR)</option>
+							  <option value="Region 1">Region 1 (Ilocos Region)</option>
+							  <option value="Region 2">Region 2 (Cagayan Valley)</option>
+							  <option value="Region 3">Region 3 (Central Luzon)</option>
+							  <option value="Region 4A">Region 4A (Calabarzon)</option>
+							  <option value="Region 4B">Region 4B (Mimaropa)</option>
+							  <option value="Region 5">Region 5 (Bicol Region)</option>
+							  <option value="Region 6">Region 6 (Western Visayas)</option>
+							  <option value="Region 7">Region 7 (Central Visayas)</option>
+							  <option value="Region 8">Region 8 (Eastern Visayas)</option>
+							  <option value="Region 9">Region 9 (Zamboanga Peninsula)</option>
+							  <option value="Region 10">Region 10 (Northern Mindanao)</option>
+							  <option value="Region 11">Region 11 (Davao Region)</option>
+							  <option value="Region 12">Region 12 (Soccsksargen)</option>
+							  <option value="CARAGA">CARAGA</option>
+							  <option value="BARMM">Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)</option>
+							</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3"><label for="desc">Additional Address Information (Optional)</label><br>
+							<textarea rows="5" id="desc" name="desc"></textarea>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td>
+								<input type="reset" value="Reset" id="reset" style="color: #c1c1c1; background-color: #555555">
+							</td>
+							<td>
+								<input type="submit" value="Proceed to Food Menu" id="proceed" style="float: right;">
+							</td>
+							
+						</tr>
+					</tfoot>
+					</form>
+				</table>
+				<div id="sidebg"></div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,448 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="order.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+		<title>DECK | Order Form</title>
+	</head>
+	
+	<body>
+	<div class="nav">
+		<a href="../index.html" style="float: left;"><img src="logo_transparent.png"></a>
+		<a href="">ORDER</a>
+		<a href="../index.html">HOME</a>
+	</div>
+	<div id="part2"></div>
+	<div class="progress">
+			<div class="p_name" style="margin-right: -8%;">
+				<h4 style="color: #cccccc">Customer<br>Information</h4>
+				<a href="order.html" style="text-decoration: none; color: #87a14c;"><h3 style="border: 2px solid #87a14c;">1</h3></a>	
+			</div>
+			<div class="p_name" style="margin-right: 17.5%;">
+				<hr style="width: 200%; border: 1.5px dashed #87a14c;">
+			</div>
+			<div class="p_name">
+				<h4>Order Form</h4>
+				<h3 style="border: 2px solid #87a14c;">2</h3>	
+			</div>
+		</div>
+	<div class="box">
+	<div id="order">
+		<form method="post">
+					<div id="menu_title"><h1>DECK'S FOOD MENU</h1>
+					<p>BURGER &centerdot; PASTA &centerdot; FRIES</p>
+					</div>
+					<form method="post">
+						<div id="food">
+							<div class="food_contain">
+								<form method="get">
+								<div id="img_food" style="background-image: url('burger.png');"></div>
+								<div id="content">
+									<p id="subhead">BEEF</p>
+									<p id="head">DECK'S BURGER</p>
+									<p id="price">₱ 99.00</p>
+									<p id="ingredients">Ingredients</p>
+									<div id="ingr">
+									<div id="patty">
+										<p id="patt" style="margin: 2.5%; font-size: 14px; color: #87a14c;">PATTY</p>
+										<label>
+											<input type="radio" name="pat" value="patty-one" required> Single Patty</p>
+										</label>
+										<label>
+											<input type="radio" name="pat" value="patty-two"> Double Decker</p>
+										</label>
+									</div>
+									<div id="bun">
+										<p id="radio" style="margin: 2.5%; font-size: 14px; color: #87a14c;">CHOICE OF BUNS</p>
+										<label>
+											<input type="radio" name="bun" value="white-bun" required> White Bun<br>
+										</label>
+										<label>
+											<input type="radio" name="bun" value="wheat-bun"> Wheat Bun<br>
+										</label>
+										<label>
+											<input type="radio" name="bun" value="honey-oat"> Honey Oat<br>
+										</label>
+										<label>
+											<input type="radio" name="bun" value="sugar-free"> Sugar-free
+										</label>
+									</div>
+									<div id="inside" style="border: none">
+										<p style="margin: 2.5%; font-size: 14px; color:#87a14c;">INCLUSIVE</p>
+										<label>
+											<input type="checkbox" name="coleslaw"> Coleslaw
+										</label><br>
+										<label>
+											<input type="checkbox" name="tomato"> Tomato
+										</label><br>
+										<label>
+											<input type="checkbox" name="onion"> Onion
+										</label><br>
+										<label>
+											<input type="checkbox" name="cucumber"> Cucumber
+										</label><br>
+										<label>
+											<input type="checkbox" name="bacon"> Bacon
+										</label><br>
+										<label>
+											<input type="checkbox" name="cheese"> Cheese
+										</label>
+									</div>
+									</div>
+									<div id="quantity">
+										<input type="number" name="no." id="no." placeholder="0" min="0" required>
+										<input type="submit" value="ADD TO CART" id="add">
+									</div>
+								</div>
+								</form>
+							</div>
+						</div>
+					</form>
+					
+					
+					<form method="post">
+						<div id="food" style="background-color: rgba(15,10,14,0.9)">
+							<div class="food_contain">
+								<form method="post">
+								<div id="content">
+									<p id="subhead" style="text-align: right;">PASTA &centerdot; PORK &centerdot; BEEF &centerdot; CHICKEN &centerdot; TUNA</p>
+									<p id="head" style="text-align: right;">DECK'S PASTA</p>
+									<p id="price" style="text-align: right;">₱ 119.00</p>
+									<p id="ingredients">Style</p>
+									<div id="ingr">
+									<div id="patty">
+										<p id="patt" style="margin: 2.5%; font-size: 14px; color: #87a14c;">SAUCE</p>
+										<label>
+											<input type="radio" name="sauce" value="pesto" required> Pesto</p>
+										</label>
+										<label>
+											<input type="radio" name="sauce" value="alfre"> Alfredo</p>
+										</label>
+										<label>
+											<input type="radio" name="sauce" value="carbs"> Carbonara</p>
+										</label>
+										<label>
+											<input type="radio" name="sauce" value="spag"> Spaghetti</p>
+										</label>
+									</div>
+									<div id="bun">
+										<p id="radio" style="margin: 2.5%; font-size: 14px; color: #87a14c;">MEAT</p>
+										<label>
+											<input type="radio" name="add" value="pork" required> Pork<br>
+										</label>
+										<label>
+											<input type="radio" name="add" value="beef"> Beef<br>
+										</label>
+										<label>
+											<input type="radio" name="add" value="chicken"> Chicken<br>
+										</label>
+										<label>
+											<input type="radio" name="add" value="tuna"> Tuna
+										</label>
+									</div>
+									<div id="inside" style="border: none">
+										<p style="margin: 2.5%; font-size: 14px; color:#87a14c; border: none">ADD ONS</p>
+										<label>
+											<input type="checkbox" name="cheese"> Extra Cheese
+										</label><br>
+										<label>
+											<input type="checkbox" name="xsauce"> Extra Sauce
+										</label><br>
+										<label>
+											<input type="checkbox" name="xmeat"> Extra Meat
+										</label>
+									</div>
+									</div>
+									<div id="quantity">
+										<input type="submit" style="float: right" value="ADD TO CART" id="add">	
+										<input type="number" style="float: right" name="no." id="no." placeholder="0" min="0" required>
+									</div>
+								</div>
+								<div id="img_food" style="background-image: url('pasta.jpg'); margin: 0% 0% 0% 5%"></div>
+								</form>
+							</div>
+						</div>
+					</form>
+					
+					
+					<form method="post">
+						<div id="food">
+							<div class="food_contain">
+								<form method="get">
+								<div id="img_food" style="background-image: url('fries.webp');"></div>
+								<div id="content">
+									<p id="subhead">FRESH PATATAS</p>
+									<p id="head">DECK'S FRIES</p>
+									<p id="price">₱ 99.00</p>
+									<div id="ingr">
+									<div id="patty">
+										<p id="patt" style="margin: 2.5%; font-size: 14px; color: #87a14c;">SIZE</p>
+										<label>
+											<input type="radio" name="pat" value="small" required> Small</p>
+										</label>
+										<label>
+											<input type="radio" name="pat" value="medium"> Medium</p>
+										</label>
+										<label>
+											<input type="radio" name="pat" value="large"> Large</p>
+										</label>
+										<label>
+											<input type="radio" name="pat" value="xl"> Deck Plate (XL)</p>
+										</label>
+									</div>
+									<div id="bun" style="border: none">
+										<p id="radio" style="margin: 2.5%; font-size: 14px; color: #87a14c; margin-top: 5%;">FLAVOR</p>
+										<label>
+											<input type="radio" name="bun" value="white-bun" required> Plain Salt<br>
+										</label>
+										<label>
+											<input type="radio" name="bun" value="wheat-bun"> Cheese<br>
+										</label>
+										<label>
+											<input type="radio" name="bun" value="honey-oat"> Barbeque<br>
+										</label>
+										<label>
+											<input type="radio" name="bun" value="sugar-free"> Sour Cream<br>
+										</label>
+										<label>
+											<input type="radio" name="bun" value="sugar-free"> Chili Cheese
+										</label>
+									</div>
+									</div>
+									<div id="quantity">
+										<input type="number" name="no." id="no." placeholder="0" min="0">
+										<input type="submit" value="ADD TO CART" id="add">
+									</div>
+								</div>
+								</form>
+							</div>
+						</div>
+					</form>
+					
+					<div id="menu_title" style="margin-top: 5%; background-image: linear-gradient(to bottom left, rgba(15,10,14,0.8) 20%, rgba(30,40,24,0.9) 50%);">
+						<h1>DECK'S DRINKS MENU</h1>
+						<p>SODA &centerdot; COFFEE &centerdot; JUICE</p>
+					</div>
+					<form method="post">
+						<div id="food" style="background-color: rgba(30,40,24,0.9)">
+							<div class="food_contain">
+								<form method="post">
+								<div id="content">
+									<p id="subhead" style="text-align: right;">CARBONATED DRINKS</p>
+									<p id="head" style="text-align: right;">DECK'S SODA</p>
+									<p id="price" style="text-align: right;">₱ 50.00</p>
+									<div id="ingr">
+									<div id="patty">
+										<p id="patt" style="margin: 2.5%; font-size: 14px; color: #87a14c;">BRAND</p>
+										<label>
+											<input type="radio" name="sauce" value="coke" required> Coca-Cola</p>
+										</label>
+										<label>
+											<input type="radio" name="sauce" value="royal"> Royal</p>
+										</label>
+										<label>
+											<input type="radio" name="sauce" value="sprite"> Sprite</p>
+										</label>
+										<label>
+											<input type="radio" name="sauce" value="pepsi"> Pepsi</p>
+										</label>
+										<label>
+											<input type="radio" name="sauce" value="mntdew"> Mntn Dew</p>
+										</label>
+									</div>
+									<div id="bun">
+										<p id="radio" style="margin: 2.5%; font-size: 14px; color: #87a14c;">SIZE</p>
+										<label>
+											<input type="radio" name="pat" value="small" required> Small</p>
+										</label>
+										<label>
+											<input type="radio" name="pat" value="medium"> Medium</p>
+										</label>
+										<label>
+											<input type="radio" name="pat" value="large"> Large</p>
+										</label>
+										<label>
+											<input type="radio" name="pat" value="xl"> Deck Cup (XL)</p>
+										</label>
+									</div>
+									<div id="inside" style="border: none">
+										<p style="margin: 2.5%; font-size: 14px; color:#87a14c; border: none">ADD ONS</p>
+										<label>
+											<input type="checkbox" name="ice"> Ice
+										</label><br>
+										<label>
+											<input type="checkbox" name="sundae"> Sundae
+										</label><br>
+									</div>
+									</div>
+									<div id="quantity">
+										<input type="submit" style="float: right" value="ADD TO CART" id="add">	
+										<input type="number" style="float: right" name="no." id="no." placeholder="0" min="0">
+									</div>
+								</div>
+								<div id="img_food" style="background-image: url('soda.png'); margin: 0% 0% 0% 5%; "></div>
+								</form>
+							</div>
+						</div>
+					</form>
+					
+					<form method="post">
+						<div id="food">
+							<div class="food_contain">
+								<form method="get">
+								<div id="img_food" style="background-image: url('kopi.jpg');"></div>
+								<div id="content">
+									<p id="subhead">BREWED &centerdot; FRENCH PRESSED</p>
+									<p id="head">DECK'S COFFEE</p>
+									<p id="price" STYLE="color: #f3b664">₱ 76.00</p>
+									<div id="ingr">
+									<div id="patty">
+										<p id="patt" style="margin: 2.5%; font-size: 14px; color: #87a14c;">STYLE</p>
+										<label>
+											<input type="radio" name="pat" required> Cold Brew</p>
+										</label>
+										<label>
+											<input type="radio" name="pat"> Cold Press</p>
+										</label>
+										<label>
+											<input type="radio" name="pat"> Hot Brew</p>
+										</label>
+										<label>
+											<input type="radio" name="pat" value="hot-press"> Hot Press</p>
+										</label>
+									</div>
+									<div id="bun">
+										<p id="radio" style="margin: 2.5%; font-size: 14px; color: #87a14c;">TYPE</p>
+										<label>
+											<input type="radio" name="type" required> Americano</p>
+										</label>
+										<label>
+											<input type="radio" name="type" > Cappuccino</p>
+										</label>
+										<label>
+											<input type="radio" name="type"> Latte</p>
+										</label>
+										<label>
+											<input type="radio" name="type"> Mocha</p>
+										</label>
+										<label>
+											<input type="radio" name="type"> Macchiato</p>
+										</label>
+									</div>
+									<div id="inside" style="border: none">
+										<p id="radio" style="margin: 2.5%; font-size: 14px; color: #87a14c;">SIZE</p>
+										<label>
+											<input type="radio" name="size" required> Small</p>
+										</label>
+										<label>
+											<input type="radio" name="size"> Medium</p>
+										</label>
+										<label>
+											<input type="radio" name="size"> Large</p>
+										</label>
+										<label>
+											<input type="radio" name="size"> Palpitate Cup</p>
+										</label>
+									</div>
+									</div>
+									<div id="quantity">
+										<input type="number" name="no." id="no." placeholder="0" min="0">
+										<input type="submit" value="ADD TO CART" id="add">
+									</div>
+								</div>
+								</form>
+							</div>
+						</div>
+					</form>
+					
+					
+					<form method="post">
+						<div id="food" style="background-color: rgba(30,40,24,0.9)">
+							<div class="food_contain">
+								<form method="post">
+								<div id="content">
+									<p id="subhead" style="text-align: right;">FRESH FRUITS & VEGETABLES</p>
+									<p id="head" style="text-align: right;">DECK'S JUICE</p>
+									<p id="price" style="text-align: right;">₱ 80.00</p>
+									<div id="ingr">
+									<div id="patty">
+										<p id="patt" style="margin: 2.5%; font-size: 14px; color: #87a14c;">VARIETY</p>
+										<label>
+											<input type="radio" name="juice" required> Orange</p>
+										</label>
+										<label>
+											<input type="radio" name="juice"> Mango</p>
+										</label>
+										<label>
+											<input type="radio" name="juice"> Lemon</p>
+										</label>
+										<label>
+											<input type="radio" name="juice" > Cucumber</p>
+										</label>
+										<label>
+											<input type="radio" name="juice" > Passion Fruit</p>
+										</label>
+										<label>
+											<input type="radio" name="juice" > Lettuce</p>
+										</label>
+									</div>
+									<div id="bun">
+										<p id="radio" style="margin: 2.5%; font-size: 14px; color: #87a14c;">SIZE</p>
+										<label>
+											<input type="radio" name="size" required> Small</p>
+										</label>
+										<label>
+											<input type="radio" name="size"> Medium</p>
+										</label>
+										<label>
+											<input type="radio" name="size"> Large</p>
+										</label>
+										<label>
+											<input type="radio" name="size" > Deck Cup (XL)</p>
+										</label>
+									</div>
+									<div id="inside" style="border: none">
+										<p style="margin: 2.5%; font-size: 14px; color:#87a14c; border: none">ADD ONS</p>
+										<label>
+											<input type="checkbox" name="slice"> Fruit slice
+										</label><br>
+										<label>
+											<input type="checkbox" name="sundae"> Pulp / Bits
+										</label><br>
+									</div>
+									</div>
+									<div id="quantity">
+										<input type="submit" style="float: right" value="ADD TO CART" id="add">	
+										<input type="number" style="float: right" name="no." id="no." placeholder="0" min="0">
+									</div>
+								</div>
+								<div id="img_food" style="background-image: url('juice.webp'); margin: 0% 0% 0% 5%; "></div>
+								</form>
+							</div>
+						</div>
+					</form>
+					
+					<div id="place">
+						<div id="claim">
+							<h3>CLAIM</h3>
+							<label>
+								<input id="mode" name="mode" type="radio" required> Pick up<br>
+							</label>
+							<label>
+								<input id="mode" name="mode" value="delivery" type="radio" required> Delivery (Additional ₱ 30)
+							</label>
+						</div>
+						<h4>TOTAL:</h4>
+						<form>
+						<input id="buy" type="submit" value="PLACE ORDER">
+						<!--<input id="reset" type="reset" value="RESET">-->
+						</form>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
