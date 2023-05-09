@@ -9,7 +9,6 @@ html{
 }
 body{
 	width: 100%;
-	height: 100%;
 	color: white;
 	font-family: 'Poppins', sans-serif;
 }
@@ -20,29 +19,88 @@ body{
 	width: 90%;
 	margin: auto;
 	position: absolute;
+	display: inline-block;
+	z-index: 2;
 }
 
-.nav a{
-	float: right;
-	margin-right: 25px;
+.nav #a{
+	margin-right: 2%;
 	text-decoration: none;
-	color: white;
-	font-size: 14px;
+	color: #333;
+	font-size: 16px;
+	font-weight: 500;
 	transition: 0.2s ease-in;
+}
+.nav a:nth-child(2){
+	margin-left: 30%;
 }
 .nav img{
 	width: 100px;
 	float: left;
 }
-.nav a:hover{
+.nav #a:hover{
 	color: #f3b664;
 }
 .bg-profile{
+	background-image: linear-gradient(120deg,white 60%,rgba(33, 10, 15, 0.9) 40%);
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: -1;
+}
+.display{
+	width: 80%;
+	padding-top: 2.5%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	border: 1px solid black;
-	width: 100%;
-	height: 80vh;
-	background-color: #210a0f;
+	justify-items: center;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+}
+.name{
+	display: block;
+}
+.name h1{
+	color: #ea8730;
+	font-size: 230px;
+	letter-spacing: -10px;
+	margin: 0;
+	line-height: 280px;
+}
+.name h2{
+	color: #f3b664;
+	font-size: 40px;
+	font-family: 'Shadows Into Light';
+	font-weight: 300;
+	line-height: 1px;
+}
+.name p{
+	color: #3d5230;
+	font-family: 'Shadows Into Light';
+	font-weight: 700;
+	font-size: 30px;
+	text-align: right;
+	margin-top: -7.5%;
+	
+}
+.name input[type=button]{
+	background-color: #87a14c;
+	width: 30%;
+	padding: 4% 5%;
+	border: none;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins';
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 5%;
+	padding: 1
+}
+.display img{
+	width: 60%;
+	margin-left: -10%;
 }
