@@ -363,3 +363,67 @@ option{
 	margin-left: 1%;
 	cursor: pointer;
 }
+
+.body{
+	width: 90%;
+	margin: 10% auto;
+	position: relative;
+}
+.body h1{
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 1%;
+}
+.body p{
+	color: #f3b664;
+	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 2.5%;
+}
+.body form{
+	width: 37%;
+	background-color: rgba(255,255,255,0.9);
+	margin: auto;
+	padding: 2.5%;
+}
+.body form label{
+	text-align: left;
+	font-size: 14px;
+}
+.body form h2{
+	color: #0f0f0f;
+	margin-bottom: 4%;
+}
+.body #name, #email, textarea{
+	font-family: 'Poppins';
+	padding: 2.5% 2.5% 1.5%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #535353;
+	display: inline-block;
+}
+.body #name{
+	width: 95%;
+}
+.body form ::placeholder{
+	color: #535353;
+}
+.body #email{
+	width: 95%;
+	margin-top: 5%;
+}
+.body textarea{
+	width: 95%;
+	margin-top: 5%;
+}
+.body input[type=submit]{
+	width: 25%;
+	border: none;
+	margin-top: 5%;
+	padding: 3.5% 7%;
+	background-color: 	RGBA(61, 82, 48, 0.9);
+	color: white;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+}
